@@ -396,10 +396,11 @@ class PythonDota2:
 			sys.exit()
 		for i in range(self.n_episodes):
 		
-			if os.path.isdir(self.tmp_dir):
-				shutil.rmtree(self.tmp_dir)
-			
+			if not os.path.isdir(self.tmp_dir):
+				os.mkdir(self.tmp_dir)
+				
 			else:
+				shutil.rmtree(self.tmp_dir)
 				os.mkdir(self.tmp_dir)
 
 			self.set_game_over(False)
@@ -622,12 +623,15 @@ class PythonDota2:
 		# checks whether there are or not files in /tmp directory
 		# if there are files in /tmp directory, they are deleted
 		# otherwise the program does nothing and continues
-			
-		if os.path.isdir(self.tmp_dir):
-				shutil.rmtree(self.tmp_dir)
+		
+		if not os.path.isdir(self.tmp_dir):
+			os.mkdir(self.tmp_dir)
 			
 		else:
+			shutil.rmtree(self.tmp_dir)
 			os.mkdir(self.tmp_dir)
+				
+		
 
 		self.__set_count(1)
 	

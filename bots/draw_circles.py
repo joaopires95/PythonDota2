@@ -26,13 +26,6 @@ for i in range(n_episodes):
 		#time.sleep(0.5)
 		hpPercentage = bot.hp()/bot.max_hp()
 		
-		#if bot.hp > 0:
-			#bot.Action_MoveToLocation(0, 0)
-
-		#if bot.n_queued_actions() > 0:
-			#not_done = True
-			
-		print(not_done, bot.n_queued_actions())
 		if not_done and bot.n_queued_actions() < 1:
 				bot.ActionPush_MoveDirectly(0, 0)
 				bot.ActionPush_MoveDirectly(400, 0) # 		#4
