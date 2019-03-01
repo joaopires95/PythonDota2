@@ -35,31 +35,33 @@ So, here's what you'll need to do in order to use this API:
 
 3. Have Steam and DOTA 2 installed in your OS.
 
-4. Go to DOTA 2 Properties in Steam. 
-4.1. In the tab "GENERAL" select "SET LAUNCH OPTIONS" and paste "-console -condebug".
-4.2. Click "OK".
-4.3. Close DOTA 2 Properties.
+4. Have an Internet connection so you can allow the creation of local matches in lobbies through the GUI automation present in this API. The lobbies are local but they can only be created if there is a connection to the Internet so each match has a unique ID.
 
-5. Go to  "~/.local/share/Steam/steamapps/common/dota 2 beta/game/dota/cfg/".
-5.1. Create a file named "autoexec.cfg" and add:
-5.1.1. "log_verbosity SteamNetSockets off | grep %" to the first line. 
-5.1.2. "sv_cheats 1" to the second line.
-5.2. Save and exit.
+5. Go to DOTA 2 Properties in Steam. 
+5.1. In the tab "GENERAL" select "SET LAUNCH OPTIONS" and paste "-console -condebug".
+5.2. Click "OK".
+5.3. Close DOTA 2 Properties.
 
-6. Start DOTA 2.
-6.1. Select DOTA 2 Settings (top left-hand corner).
-6.2. Select the tab "VIDEO".
-6.2.1. Under "RESOLUTION" select the option "Use my monitor's current resolution".
-6.2.2. Under "OPTIONS" select the option "OpenGL (-gl)" for rendering API.
-6.2.3. Under "RENDERING" select "Use basic settings" and select "Fastest".
-6.3. Under "RESOLUTION" click "APPLY".
-6.4. Exit DOTA 2 Settings and quit DOTA 2.
+6. Go to  "~/.local/share/Steam/steamapps/common/dota 2 beta/game/dota/cfg/".
+6.1. Create a file named "autoexec.cfg" and add:
+6.1.1. "log_verbosity SteamNetSockets off | grep %" to the first line. 
+6.1.2. "sv_cheats 1" to the second line.
+6.2. Save and exit.
 
-7. Copy this project's contents ("bots" directory) to "~/.local/share/Steam/steamapps/common/dota 2 beta/game/dota/scripts/vscripts/bots".
+7. Start DOTA 2.
+7.1. Select DOTA 2 Settings (top left-hand corner).
+7.2. Select the tab "VIDEO".
+7.2.1. Under "RESOLUTION" select the option "Use my monitor's current resolution".
+7.2.2. Under "OPTIONS" select the option "OpenGL (-gl)" for rendering API.
+7.2.3. Under "RENDERING" select "Use basic settings" and select "Fastest".
+7.3. Under "RESOLUTION" click "APPLY".
+7.4. Exit DOTA 2 Settings and quit DOTA 2.
+
+8. Copy this project's contents ("bots" directory) to "~/.local/share/Steam/steamapps/common/dota 2 beta/game/dota/scripts/vscripts/bots".
 The directory must be exactly named "bots", so that the LUA files can be read by DOTA 2!
 
-8. Install in your OS the Python module "pyautogui". You can follow the steps under "Installing the pyautogui Module" in https://automatetheboringstuff.com/chapter18/
+9. Install in your OS the Python module "pyautogui". You can follow the steps under "Installing the pyautogui Module" in https://automatetheboringstuff.com/chapter18/
 
-9. Install "xdotool" in your OS: https://github.com/jordansissel/xdotool
+10. Install "xdotool" in your OS: https://github.com/jordansissel/xdotool
 
-10. Try one of the two Python scripts provided to check if the API works on your system!
+11. Try one of the two Python scripts provided to check if the API works on your system!
