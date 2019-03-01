@@ -1,0 +1,345 @@
+|-
+|Abaddon
+|abaddon
+|-
+|Alchemist
+|alch <br> chem <br> chemist <br> alchemist
+|-
+|Anti-Mage
+|anti <br> mage <br> antimage
+|-
+|Ancient Apparition
+|ancient <br> apparition <br> ancient_apparition
+|-
+|Arc Warden
+|arc <br> arc_warden
+|-
+|Axe
+|axe
+|-
+|Bane
+|bane
+|-
+|Batrider
+|batrider
+|-
+|Beastmaster
+|beast <br> master <br> beastmaster
+|-
+|Bloodseeker
+|bloodseeker
+|-
+|Bounty Hunter
+|bounty <br> bounty_hunter
+|-
+|Brewmaster
+|brew <br> brewmaster
+|-
+|Bristleback
+|bristle <br> back <br> bristleback
+|-
+|Broodmother
+|the <br> brood <br> mother <br> broodmother
+|-
+|Centaur Warrunner
+|centaur
+|-
+|Chaos Knight
+|chaos <br> chaos_knight
+|-
+|Chen
+|chen
+|-
+|Clinkz
+|clinkz
+|-
+|Clockwerk
+|rattletrap
+|-
+|Crystal Maiden
+|crystal <br> maiden <br> crystal_maiden
+|-
+|Dark Seer
+|dark <br> seer <br> dark_seer
+|-
+|Dark Willow
+|dark_willow
+|-
+|Dazzle
+|dazzle
+|-
+|Death Prophet
+|death <br> prophet <br> death_prophet
+|-
+|Disruptor
+|disruptor
+|-
+|Doom
+|doom <br> doom_bringer
+|-
+|Dragon Knight
+|dragon <br> knight <br> night <br> dragon_knight
+|-
+|Drow Ranger
+|drow <br> drow_ranger
+|-
+|Earth Spirit
+|earth_spirit
+|-
+|Earthshaker
+|earth <br> shaker <br> earthshaker
+|-
+|Elder Titan
+|elder <br> titan <br> elder_titan
+|-
+|Ember Spirit
+|ember <br> ember_spirit
+|-
+|Enchantress
+|ench <br> enchantress
+|-
+|Enigma
+|enigma
+|-
+|Faceless Void
+|face <br> faceless <br> void <br> faceless_void
+|-
+|Gyrocopter
+|gyro <br> copter <br> gyrocopter
+|-
+|Huskar
+|huskar
+|-
+|Invoker
+|invoker
+|-
+|Io
+|wisp
+|-
+|Jakiro
+|jak <br> jakiro
+|-
+|Juggernaut
+|jugg <br> juggernaut
+|-
+|Keeper of the Light
+|keeper <br> light <br> keeper_of_the_light
+|-
+|Kunkka
+|kunkka
+|-
+|Legion Commander
+|legion <br> legion_commander
+|-
+|Leshrac
+|lesh <br> leshrac
+|-
+|Lich
+|lich
+|-
+|Lifestealer
+|life <br> stealer <br> life_stealer
+|-
+|Lina
+|lina
+|-
+|Lion
+|lion
+|-
+|Lone Druid
+|lone <br> druid <br> lone_druid
+|-
+|Luna
+|luna
+|-
+|Lycan
+|lycan
+|-
+|Magnus
+|magna <br> magnataur
+|-
+|Medusa
+|medusa
+|-
+|Meepo
+|meepo
+|-
+|Mirana
+|mirana
+|-
+|Monkey King
+|monkey_king
+|-
+|Morphling
+|morphling
+|-
+|Naga Siren
+|naga <br> siren <br> naga_siren
+|-
+|Nature's Prophet
+|furion
+|-
+|Necrophos
+|necro <br> necrolyte
+|-
+|Night Stalker
+|stalker <br> night_stalker
+|-
+|Nyx Assassin
+|nyx <br> nyx_assassin
+|-
+|Ogre Magi
+|ogre <br> ogre_magi
+|-
+|Omniknight
+|omniknight
+|-
+|Oracle
+|oracle
+|-
+|Outworld Devourer
+|obsidian <br> destroyer <br> obsidian_destroyer
+|-
+|Pangolier
+|pangolier
+|-
+|Phantom Assassin
+|assassin <br> phantom_assassin
+|-
+|Phantom Lancer
+|phantom <br> phantom_lancer
+|-
+|Phoenix
+|phoenix
+|-
+|Puck
+|puck
+|-
+|Pudge
+|pudge
+|-
+|Pugna
+|pugna
+|-
+|Queen of Pain
+|queen <br> of <br> pain <br> queenofpain
+|-
+|Razor
+|razor
+|-
+|Riki
+|riki
+|-
+|Rubick
+|rubick
+|-
+|Sand King
+|sand <br> king <br> sand_king
+|-
+|Shadow Demon
+|demon <br> shadow_demon
+|-
+|Shadow Fiend
+|nevermore
+|-
+|Shadow Shaman
+|shadow <br> shadow_shaman
+|-
+|Silencer
+|silencer
+|-
+|Skywrath Mage
+|sky <br> skywrath <br> skywrath_mage
+|-
+|Slardar
+|slardar
+|-
+|Slark
+|slark
+|-
+|Sniper
+|sniper
+|-
+|Spectre
+|spectre
+|-
+|Spirit Breaker
+|breaker <br> spirit_breaker
+|-
+|Storm Spirit
+|storm <br> spirit <br> storm_spirit
+|-
+|Sven
+|sven
+|-
+|Techies
+|tech <br> techies
+|-
+|Templar Assassin
+|templar <br> templar_assassin
+|-
+|Terrorblade
+|terror <br> terrorblade
+|-
+|Tidehunter
+|tide <br> hunter <br> tidehunter
+|-
+|Timbersaw
+|shredder
+|-
+|Tinker
+|tinker
+|-
+|Tiny
+|tiny
+|-
+|Treant Protector
+|treant
+|-
+|Troll Warlord
+|troll <br> warlord <br> troll_warlord
+|-
+|Tusk
+|tusk
+|-
+|Underlord
+|abyssal <br> underlord <br> abyssal_underlord
+|-
+|Undying
+|undying
+|-
+|Ursa
+|ursa
+|-
+|Vengeful Spirit
+|venge <br> vengeful <br> vengefulspirit
+|-
+|Venomancer
+|veno <br> venomancer
+|-
+|Viper
+|viper
+|-
+|Visage
+|visage
+|-
+|Warlock
+|warlock
+|-
+|Weaver
+|weaver
+|-
+|Windranger
+|wind <br> windrunner
+|-
+|Winter Wyvern
+|winter <br> wyvern <br> winter_wyvern
+|-
+|Witch Doctor
+|witch <br> doctor <br> witch_doctor
+|-
+|Wraith King
+|skeleton <br> skeleton_king
+|-
+|Zeus
+|zuus
