@@ -38,30 +38,30 @@ So, here's what you'll need to do in order to use this API:
 4. Have an Internet connection so you can allow the creation of local matches in lobbies through the GUI automation present in this API. The lobbies are local but they can only be created if there is a connection to the Internet so each match has ,a unique ID.
 
 5. Go to DOTA 2 Properties in Steam.
-- In the tab "GENERAL" select "SET LAUNCH OPTIONS" and paste "-console -condebug".
-- Click "OK".
-- Close DOTA 2 Properties.
+   1. In the tab "GENERAL" select "SET LAUNCH OPTIONS" and paste "-console -condebug".
+   2. Click "OK".
+   3. Close DOTA 2 Properties.
 
 6. Go to  "~/.local/share/Steam/steamapps/common/dota 2 beta/game/dota/cfg/".
-6.1. Create a file named "autoexec.cfg" and add:
-6.1.1. "log_verbosity SteamNetSockets off | grep %" to the first line. 
-6.1.2. "sv_cheats 1" to the second line.
-6.2. Save and exit.
+   1. Create a file named "autoexec.cfg" and add:
+      1. "log_verbosity SteamNetSockets off | grep %" to the first line. 
+      2. "sv_cheats 1" to the second line.
+   2. Save and exit.
 
 7. Start DOTA 2.
-7.1. Select DOTA 2 Settings (top left-hand corner).
-7.1.1. Select the tab "VIDEO".
-7.1.2. Under "RESOLUTION" select the option "Use my monitor's current resolution".
-7.1.3. Under "OPTIONS" select the option "OpenGL (-gl)" for rendering API.
-7.1.4. Under "RENDERING" select "Use basic settings" and select "Fastest".
-7.1.5 Under "RESOLUTION" click "APPLY" and exit DOTA 2 Settings.
-7.2. Select PLAY DOTA (bottom right-hand corner).
-7.2.1. Under "CUSTOM LOBBIES" select "CREATE".
-7.2.2. Near "LOBBY SETTINGS" select "EDIT".
-7.2.3. Under "GENERAL LOBBY SETTINGS" check the option "ENABLE CHEATS" (this will allow the match creation automation to be successful).
-7.2.4. Under "ADVANCED LOBBY SETTINGS", in "BOT SETTINGS", check the option "FILL EMPTY SLOTS WITH BOTS". Select for "RADIANT DIFFICULTY" and "DIRE DIFFICULTY" the option "UNFAIR" and for "RADIANT BOTS" and "DIRE BOTS" select the option "LOCAL DEV SCRIPT".
-7.2.5. Click "OK" and then click "LEAVE THIS LOBBY".
-7.3. Quit DOTA 2.
+   1. Select DOTA 2 Settings (top left-hand corner).
+      1. Select the tab "VIDEO".
+      2. Under "RESOLUTION" select the option "Use my monitor's current resolution".
+      3. Under "OPTIONS" select the option "OpenGL (-gl)" for rendering API.
+      4. Under "RENDERING" select "Use basic settings" and select "Fastest".
+      5. Under "RESOLUTION" click "APPLY" and exit DOTA 2 Settings.
+   2. Select PLAY DOTA (bottom right-hand corner).
+      1. Under "CUSTOM LOBBIES" select "CREATE".
+      2. Near "LOBBY SETTINGS" select "EDIT".
+      3. Under "GENERAL LOBBY SETTINGS" check the option "ENABLE CHEATS" (this will allow the match creation automation to be successful).
+      4. Under "ADVANCED LOBBY SETTINGS", in "BOT SETTINGS", check the option "FILL EMPTY SLOTS WITH BOTS". Select for "RADIANT DIFFICULTY" and "DIRE DIFFICULTY" the option "UNFAIR" and for "RADIANT BOTS" and "DIRE BOTS" select the option "LOCAL DEV SCRIPT".
+      5. Click "OK" and then click "LEAVE THIS LOBBY".
+   3. Quit DOTA 2.
 
 8. Copy this project's contents ("bots" directory) to "~/.local/share/Steam/steamapps/common/dota 2 beta/game/dota/scripts/vscripts/".
 The directory MUST be exactly named "bots", so that the LUA files can be read by DOTA 2!
