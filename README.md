@@ -22,9 +22,8 @@ I put all these files in the "bots" directory, present in "/.local/share/Steam/s
 You don't need to have your developed Python scripts in this directory.
 If you wish to have the module "PythonDota2.py" in another directory, be sure that "install_dir.cfg" is present in that same directory, because this file's contents will be read by "PythonDota2.py".
 
-In addition to these files, there are also two directories present in the "bots" directory:
+In addition to these files, there is also a directory present in the "bots" directory:
 - "scrsht" - that contains pieces of screenshots I took from DOTA 2 that will be recognised by "PythonDota2.py", in order to create local matches through automation via the game's GUI.
-- "tmp" - that will contain the files written by "PythonDota2.py", when controls are sent to the hero. These files are the ones that will be interpreted by the hero's LUA file, so that the controls, sent by the module, result in actions taken by the hero.
 
 
 So, here's what you'll need to do in order to use this API:
