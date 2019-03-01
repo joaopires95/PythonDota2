@@ -39,11 +39,11 @@ So, here's what you'll need to do in order to use this API:
 
 5. Go to DOTA 2 Properties in Steam.
 
-5.1. In the tab "GENERAL" select "SET LAUNCH OPTIONS" and paste "-console -condebug".
+  5.1. In the tab "GENERAL" select "SET LAUNCH OPTIONS" and paste "-console -condebug".
 
-5.2. Click "OK".
+  5.2. Click "OK".
 
-5.3. Close DOTA 2 Properties.
+  5.3. Close DOTA 2 Properties.
 
 6. Go to  "~/.local/share/Steam/steamapps/common/dota 2 beta/game/dota/cfg/".
 6.1. Create a file named "autoexec.cfg" and add:
