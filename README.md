@@ -37,9 +37,12 @@ So, here's what you'll need to do in order to use this API:
 
 4. Have an Internet connection so you can allow the creation of local matches in lobbies through the GUI automation present in this API. The lobbies are local but they can only be created if there is a connection to the Internet so each match has ,a unique ID.
 
-5. Go to DOTA 2 Properties in Steam. 
+5. Go to DOTA 2 Properties in Steam.
+
 5.1. In the tab "GENERAL" select "SET LAUNCH OPTIONS" and paste "-console -condebug".
+
 5.2. Click "OK".
+
 5.3. Close DOTA 2 Properties.
 
 6. Go to  "~/.local/share/Steam/steamapps/common/dota 2 beta/game/dota/cfg/".
